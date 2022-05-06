@@ -5,8 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.fragment.app.Fragment;
+import androidx.annotation.NonNull;
 
 import androidx.navigation.fragment.NavHostFragment;
 
@@ -21,7 +22,6 @@ public class SecondFragment extends Fragment {
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-
         binding = FragmentSecondBinding.inflate(inflater, container, false);
         return binding.getRoot();
 
